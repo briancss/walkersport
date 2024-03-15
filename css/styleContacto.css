@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+body {
+
+    background-image: url("../IMG/contacto.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+
+h1 {
+    font-family: "Eras ITC", "Eras Bold ITC", sans-serif;
+    color:white;
+    float:left;
+   
+    
+
+}
+
+ul {
+    background-color: rgba(49, 39, 129, 1);
+    list-style-type: none;
+    overflow: hidden;
+    margin:auto ;
+    padding: 1; 
+    
+}
+
+li {
+   
+    float: right;
+}
+
+
+li a {
+
+    display: block;
+    color:white; 
+    text-decoration: none;
+    padding: 30px; 
+    font-size: 15px;
+    font-family: "Eras ITC", "Eras Bold ITC", sans-serif;
+    
+}
+
+li a:hover {
+
+    background-color: rgb(24, 138, 245);
+}
+
+h2 {
+   font-size: 40px;
+   font-family: "Dela Gothic One", sans-serif;
+   text-align: center;
+   padding:150px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+
+}
+
+
+
+h3 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white ;
+
+
+}
+
+
+.info {
+    font-size: 12px;
+    font-family: "Dela Gothic One", sans-serif;
+    
+    
+    
+}

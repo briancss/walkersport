@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+body {
+
+    background-image: url("../IMG/productos.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+h1 {
+    font-family: "Eras ITC", "Eras Bold ITC", sans-serif;
+    color:white;
+    float:left;
+   
+    
+
+}
+
+ul {
+    background-color: rgba(49, 39, 129, 1);
+    list-style-type: none;
+    overflow: hidden;
+    margin:auto ;
+    padding: 1; 
+    
+}
+
+li {
+   
+    float: right;
+}
+
+
+li a {
+
+    display: block;
+    color:white; 
+    text-decoration: none;
+    padding: 30px; 
+    font-size: 15px;
+    font-family: "Eras ITC", "Eras Bold ITC", sans-serif;
+    
+}
+
+li a:hover {
+
+    background-color: rgb(24, 138, 245);
+}
+
+.text {
+
+    font-size: 150%;
+    font-family: "Dela Gothic One", sans-serif;
+    padding: 140px 0px 60px 60px;
+}
+
+.image {
+
+    width: 900px;
+    height: 900px;
+    
+    
+}
+
+.image-2 {
+    width: 700px;
+    height: 850px;
+
+
+}
