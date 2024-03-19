@@ -60,20 +60,8 @@ padding-left: 10px;
  
     }
 
-    main img {
-        width: 100%;
-        height: auto; 
-    }
 
 
-.bodyContainer footer {
-    grid-area: footer;
-    background-color: rgba(49, 39, 129, 1);
-    text-align: center;
-    color: white;
-
-
-}
 
 
 ul {
@@ -92,7 +80,9 @@ li a:hover {
     
 }
 
-
+main {
+    background-color: rgb(148, 161, 236);
+}
 
 
   
