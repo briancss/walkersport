@@ -26,7 +26,7 @@ grid-template-areas:
     grid-area: header;
     background-color: rgba(49, 39, 129, 1);
     list-style-type: none;
-  
+
 }
 
 .image {
@@ -35,14 +35,13 @@ padding-left: 10px;
 
 }
 
- .navBar {
+.navBar {
     display: flex;
     gap: 20px;
     list-style: none;
     justify-content: right;
     padding-top: 20px;
     padding-right: 15px;
-   
 }
 
 .navBar li a {
@@ -50,18 +49,12 @@ padding-left: 10px;
     color:#ffffff;
     font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
-   
-    }
+}
 
 
- .bodyContainer main {
+.bodyContainer main {
     grid-area: main;
- 
-    }
-
-
-
+}
 
 
 ul {
@@ -70,12 +63,10 @@ ul {
     overflow: hidden;
     margin:auto ;
     padding: 1; 
-    
 }
 
 
 li a:hover {
-
     background-color: rgb(24, 138, 245);
     
 }
@@ -83,6 +74,3 @@ li a:hover {
 main {
     background-color: rgb(148, 161, 236);
 }
-
-
-  

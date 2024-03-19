@@ -20,13 +20,13 @@
     ;
     }
     
-    .bodyContainer header {
+.bodyContainer header {
         display: flex;
         justify-content: space-between;
         grid-area: header;
         background-color: rgba(49, 39, 129, 1);
         list-style-type: none;
-      
+
     }
     
     .image {
@@ -35,27 +35,26 @@
     
     }
     
-     .navBar {
+.navBar {
         display: flex;
         gap: 20px;
         list-style: none;
         justify-content: right;
         padding-top: 20px;
         padding-right: 15px;
-       
+    
     }
     
-    .navBar li a {
+.navBar li a {
         text-decoration: none;
         color:#ffffff;
         font-size: 20px;
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-       
-       
-        }
-        .bodyContainer main {
+    }
+
+    .bodyContainer main {
             grid-area: main;
-         
+        
             }
         
         
