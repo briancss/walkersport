@@ -7,7 +7,7 @@
 
 }
 
-@media (max-width: 1440px)
+
 
 /* BODYCONTAINER -GRID */
 .bodyContainer {
@@ -69,6 +69,18 @@
 
     } 
 
+    .menu-icono {
+        width: 25px;
+        }
+    
+    .navInput{
+        display: none;
+    }
+    
+    label {
+        display: none;
+    }
+
 
         /* BODYCONTAINER MAIN */
 
@@ -118,3 +130,146 @@
             justify-content: center;
         }
         
+
+@media (max-width: 1024px) {
+
+    .navBar li a {
+        text-decoration: none;
+        color:#ffffff;
+        font-size: 14px;
+        font-family:"Open Sans", sans-serif;}
+
+    .mainNosotros section{
+            grid-column: 1/3;
+            grid-row: 2/5;
+            padding-left: 60px;
+            padding-top: 60px;
+            font-family: "Dela Gothic One", sans-serif ;
+            font-size: 18px;}
+
+            footer p{
+                font-size: 13px;
+            }
+
+
+@media (max-width: 768px) {              
+    
+    .bodyContainer header {
+        
+        justify-content: space-around;}
+
+.navBar li a {
+        text-decoration: none;
+        color:#ffffff;
+        font-size: 12px;
+        font-family:"Open Sans", sans-serif;}
+
+        .imageNosotros {
+            width: 60%;}
+
+            .mainNosotros section{
+                grid-column: 1/3;
+                grid-row: 2/5;
+                padding-left: 60px;
+                padding-top: 20px;
+                font-family: "Dela Gothic One", sans-serif ;
+                font-size: 16px;}
+
+                .mainNosotros .imageFondo {
+                    width: 100%;
+                    height: 100vh;
+                    grid-column: 1/6;
+                    grid-row: 1/6 ;
+                } 
+
+                footer p{
+                    font-size: 10px;
+                }
+
+}
+@media (max-width: 600px) {
+
+    .bodyContainer header {
+        display: flex;
+        justify-content:space-between;
+        background-color: rgb(49, 39, 129);
+    }
+    
+    .image {
+        margin-left: 20px;
+    }
+    
+    .menu-icono {
+    width: 25px;
+    }
+    
+    
+    label {
+        display: block;
+        cursor: pointer; 
+    }
+    
+    .navBar {
+    
+    display: block;
+    position: fixed;
+    left:-200%;
+    background-color: rgb(49, 39, 129);
+    width: 100%;
+    height: 100vh;
+    right:0;
+    
+    }
+    
+    .navBar li {
+        padding: 2rem;
+        display:flex;
+        justify-content: center;
+        margin: 0;
+    
+    }
+
+    .navInput:checked ~ .navBar{
+        left: 0%;
+    }
+
+    .mainNosotros .imageFondo{
+    
+        display:none; }
+        
+    .mainNosotros {
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(white,#14067b);}
+
+    .mainNosotros section{
+        grid-column: 2/5;
+        grid-row: 2/4;
+        font-family: "Dela Gothic One", sans-serif ;
+        font-size: 15px;
+        text-align: center;
+        padding: 0;
+        
+    
+    }
+
+        
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
