@@ -79,12 +79,12 @@ li a:hover {
     grid-row: 1/10;
 }
 
-.mainProductos h1 {
+.mainProductos section {
     padding-left: 60px;
     grid-column: 1/4;
     grid-row: 3/10;
     font-family: "Dela Gothic One", sans-serif ;
-    font-size: 28px;
+    font-size: 150%;
 }
 
 .imagen1 {
@@ -104,11 +104,13 @@ li a:hover {
 
 .bodyContainer footer {
     grid-area: footer;
-    display: flex;
-    justify-content: center;
     background-color: #312781;
-    color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #ffffff80;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
     
 }
 
