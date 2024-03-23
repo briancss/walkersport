@@ -7,8 +7,6 @@
 
 }
 
-@media (max-width: 1440px)
-
 .bodyContainer {
     width: 100%;
     height: 100%;
@@ -21,6 +19,8 @@
     "footer"
     ;
     }
+
+    /* NAV BAR - MAIN */
 
     .bodyContainer header {
         display: flex;
@@ -70,6 +70,18 @@ li a:hover {
             
             
         } 
+
+.menu-icono {
+    width: 25px;
+    }
+        
+.navInput{
+    display: none;
+    }
+        
+label {
+    display: none;
+    }
  
 
 /* MAIN */
@@ -82,7 +94,7 @@ li a:hover {
 
 .mainTienda img{
     width: 100%;
-    height: auto;
+    /*height: auto;*/
     grid-column: 1/6;
     grid-row: 1/6;
 }
@@ -105,7 +117,7 @@ li a:hover {
     grid-row: 2/5 ;
     align-self: center;
     border: 1px solid #ffffff80;
-    margin: 20px;
+    
     font-family: "Dela Gothic One", sans-serif ;
     font-size: 13px;
     color: white;
@@ -117,10 +129,10 @@ li a:hover {
     grid-row: 2/5;
     align-self: center;
     border: 1px solid #ffffff80;
-    margin: 20px;
     font-family: "Dela Gothic One", sans-serif ;
     font-size: 13px;
     color: white;
+    margin: 15px;
     
 }
 
@@ -130,10 +142,10 @@ li a:hover {
     grid-row: 2/5;
     align-self: center;
     border: 1px solid #ffffff80;
-    margin: 20px;
     font-family: "Dela Gothic One", sans-serif ;
     font-size: 13px;
     color: white;
+    margin: 30px;
 }
 
 button {
@@ -190,7 +202,7 @@ button:hover {
     padding-top: 20px;
     color: #ffffff80;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
+   
     
 }
 
@@ -199,44 +211,13 @@ footer p {
 
     
 }
-        
-        
-        
-@media (max-width: 1024px)
 
-.bodyContainer {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 7% 85% 8%;
-    grid-template-areas:
-    "header"
-    "main"
-    "footer"
-    ;
-    }
 
-    /* HEADER - NAV BAR */
-
-    .bodyContainer header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        grid-area: header;
-        background-color: rgba(49, 39, 129, 1);
-        list-style-type: none;
-        padding-right: 30px;
-      
-    }
-    
- .navBar {
-        display: flex;
-        gap: 25px;
-        list-style: none;
         
-       
-    }
+        
+        
+@media (max-width: 1024px) {
+
     
 .navBar li a {
         text-decoration: none;
@@ -246,16 +227,7 @@ footer p {
        
     
         }
-        
-ul {
-            background-color: rgba(49, 39, 129, 1);
-            list-style-type: none;
-            overflow: hidden;
-            margin:auto ;
-            padding: 1; 
-            
-        }
-        
+
         
 li a:hover {
         
@@ -265,19 +237,8 @@ li a:hover {
         } 
 
 /* MAIN */
-.bodyContainer main {
-            grid-area: main;
-            display: grid;
-            grid-template-columns: repeat(5,1fr);
-            grid-template-rows: repeat(5,1fr);
-}
 
-.mainTienda img{
-    width: 100%;
-    height: auto;
-    grid-column: 1/6;
-    grid-row: 1/6;
-}
+
 
 .mainTienda h1{
     grid-column: 2/5;
@@ -285,7 +246,7 @@ li a:hover {
     align-self: flex-end;
     text-align: center;
     font-family: "Dela Gothic One", sans-serif ;
-    font-size: 60px;
+    font-size: 45px;
     color: rgb(0, 0, 0);
 }
 
@@ -299,7 +260,7 @@ li a:hover {
     border: 1px solid #ffffff80;
     margin: 20px;
     font-family: "Dela Gothic One", sans-serif ;
-    font-size: 10px;
+    font-size: 8px;
     color: white;
 }
 
@@ -311,7 +272,7 @@ li a:hover {
     border: 1px solid #ffffff80;
     margin: 20px;
     font-family: "Dela Gothic One", sans-serif ;
-    font-size: 10px;
+    font-size: 8px;
     color: white;
     
 }
@@ -324,7 +285,7 @@ li a:hover {
     border: 1px solid #ffffff80;
     margin: 20px;
     font-family: "Dela Gothic One", sans-serif ;
-    font-size: 10px;
+    font-size: 8px;
     color: white;
 }
 
@@ -383,123 +344,215 @@ button:hover {
     padding-top: 20px;
     color: #ffffff80;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
-}
-
-footer p{
-    font-size: 13px;
-}
-
-
-@media (max-width: 768px)
-.bodyContainer {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 7% 85% 8%;
-    grid-template-areas:
-    "header"
-    "main"
-    "footer"
-    ;
-    }
-
-   
-
-
-/* HEADER - NAV BAR */
-
-.bodyContainer header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid-area: header;
-    background-color: rgb(49, 39, 129);
-    list-style-type: none;
-    padding-right: 30px;
-}
-.navBar {
-    display: flex;
-    gap: 25px;
-    list-style: none;
-
-}
-
-.navBar li a {
-    text-decoration: none;
-    color:#ffffff;
-    font-size: 12px;
-    font-family:"Open Sans", sans-serif;
-}
-
-
-ul {
-    background-color: rgb(49, 39, 129);
-    list-style-type: none;
-    overflow: hidden;
-    margin:auto ;
-    padding: 1; 
-}
-
-
-li a:hover {
-    color: rgb(24, 138, 245);
     
 }
 
-/* MAIN GRID - FONDO DE PANTALLA - TEXTO INICIO */
-
-.bodyContainer main {
-    grid-area: main;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
+footer p{
+    font-size: 10px;
+}
 
 }
 
-.mainContainer acticle {
-    grid-column: 1/3;
-    grid-row: 2/4;
-    font-size: 150%;
-    order:2 ;
-    padding-left: 60px;
-    font-family: "Dela Gothic One", sans-serif ;    
-}
+@media (max-width: 768px) {
 
-.mainContainer img {
+
+.bodyContainer header {
+        justify-content: space-around;}
+
+.navBar li a {
+        text-decoration: none;
+        color:#ffffff;
+        font-size: 12px;
+        font-family:"Open Sans", sans-serif; }
+header img {
+        width: 60%;}
+
+
+/* MAIN */
+.mainTienda .imgTienda {
     width: 100%;
-    grid-column: 1/5;
-    grid-row: 1/5 ;
-    order:1 ;
+    height: 100vh;
+    grid-column: 1/6;
+    grid-row: 1/6;}
+
+
+.mainTienda h1{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    align-self: flex-end;
+    text-align: center;
+    font-family: "Dela Gothic One", sans-serif ;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
 }
 
+/* CARDS PRODUTOS */
 
-
-.mainContainer p a {
-  color: #000000;  
-  text-decoration: none;
-  font-size: 70%;
+.card1 {
+   
+    grid-column: 2/3;
+    grid-row: 2/5 ;
+    align-self: center;
+    border: 1px solid #ffffff80;
+    font-family: "Dela Gothic One", sans-serif ;
+    font-size: 7px;
+    color: white;
+    margin: auto;
 }
-.mainContainer p a:hover {
-    color: #312781;     
-  }
 
+.card2 {
+    
+    grid-column: 3/4 ;
+    grid-row: 2/5;
+    align-self: center;
+    border: 1px solid #ffffff80;
+    font-family: "Dela Gothic One", sans-serif ;
+    font-size: 7px;
+    color: white;
+    margin: auto;
+    
+}
 
+.card3 {
+    
+    grid-column: 4/5;
+    grid-row: 2/5;
+    align-self: center;
+    border: 1px solid #ffffff80;
+    font-family: "Dela Gothic One", sans-serif ;
+    font-size: 7px;
+    color: white;
+    margin: auto;
+}
+button {
+    grid-column: 3/4;
+    grid-row: 4/6;
+    align-self:center;
+    text-align: center;
+
+}
+
+        
 /* FOOTER */
 
 .bodyContainer footer {
     grid-area: footer;
     background-color: #312781;
-    text-align: left;
     padding-left: 20px;
     padding-top: 20px;
     color: #ffffff80;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
+   
     
 }
 
-footer p{
-    font-size: 13px;
+footer p {
+    font-size: 10px;
+
+    
 }
+
+}
+
+@media (max-width: 600px) {
+
+    .bodyContainer header {
+        display: flex;
+        justify-content:space-between;
+        background-color: rgb(49, 39, 129);
+    }
+    
+    
+    
+    .image {
+        margin-left: 20px;
+    }
+    
+    
+    
+    .menu-icono {
+    width: 25px;
+    }
+    
+    
+    label {
+        display: block;
+        cursor: pointer; 
+    }
+    
+    .navBar {
+    
+    display: block;
+    position: fixed;
+    left:-200%;
+    background-color: rgb(49, 39, 129);
+    width: 100%;
+    height: 100vh;
+    right:0;
+    
+    }
+    
+    .navBar li {
+        padding: 2rem;
+        display:flex;
+        justify-content: center;
+        margin: 0;
+    
+    }
+    
+    .navInput:checked ~ .navBar{
+        left: 0%;
+    }
+/* MAIN*/ 
+
+    .mainTienda h1{
+        grid-column: 2/5;
+        grid-row: 1/2;
+        align-self: center;
+        text-align: center;
+        font-family: "Dela Gothic One", sans-serif ;
+        font-size: 40px;
+        color: rgb(0, 0, 0);}
+    
+
+    .card1 {
+        
+        grid-column:2/5;
+        grid-row: 2/3 ;
+        border: 1px solid #ffffff80;
+        font-family: "Dela Gothic One", sans-serif;
+        text-align: center;
+        font-size: 8px;
+        color: rgb(172, 172, 172);
+        margin:20px 20px 20px 20px;}
+    
+    .card2 {
+        
+        grid-column: 2/5 ;
+        grid-row: 3/4;
+        text-align: center;
+        border: 1px solid #ffffff80;
+        font-family: "Dela Gothic One", sans-serif ;
+        font-size: 8px;
+        color: rgb(172, 172, 172);
+        margin:20px 20px 20px 20px;}
+    
+    .card3 {
+        
+        grid-column:2/5;
+        grid-row: 4/5;
+        text-align: center;
+        border: 1px solid #ffffff80;
+        font-family: "Dela Gothic One", sans-serif ;
+        font-size: 8px;
+        color: rgb(172, 172, 172);
+        margin:20px 20px 20px 20px; }
+        
+
+        
+    button {
+            grid-column: 3/4;
+            grid-row: 5/6;}
+
+    }
+
